@@ -39,6 +39,24 @@
 - Enforce immutability where possible.
 - Apply SOLID principles.
 
+## Hibernate
+
+- Use parameterized queries to prevent SQL injection.
+- Prefer JPQL or Criteria API over native queries.
+- Use lazy loading for associations by default.
+- Avoid N+1 select problems; use fetch joins where needed.
+- Use batch fetching for collections.
+- Map entities with explicit column types and constraints.
+- Use @Transactional for atomic operations.
+- Avoid business logic in entities.
+- Use DTOs for data transfer.
+- Close sessions and entity managers properly.
+- Handle exceptions with specific catch blocks.
+- Use optimistic locking for concurrency control.
+- Avoid eager fetching unless necessary.
+- Document entity relationships and mappings.
+- Write integration tests for persistence logic.
+
 ## SQL
 
 - Write parameterized queries to prevent SQL injection.
