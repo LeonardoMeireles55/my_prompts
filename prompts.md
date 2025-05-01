@@ -1,68 +1,78 @@
-# Common and Simple Reusable Coding Prompts
+# Common and Reusable Coding Prompts
 
 ## General
 
-- Write a function to [task] in [language].
-- Refactor for readability and maintainability.
-- Add type annotations.
-- Write unit tests.
-- Optimize for performance.
-- Add docstrings.
-- Use async/await.
-- Add error handling.
-- Extract logic to function/class.
-- Remove unused imports/variables.
+- Implement [task] in [language].
+- Refactor for readability, maintainability, and performance.
+- Write comprehensive unit and integration tests.
+- Use async/await where applicable.
+- Add robust error handling.
+- Extract logic to pure functions/classes.
+- Remove unused imports, variables, and dead code.
+- Add clear, concise documentation for all code.
+- Enforce single responsibility principle.
+- Ensure code is modular and reusable.
 
 ## TypeScript/JavaScript
 
-- Convert to TypeScript.
-- Add JSDoc.
-- Enforce strict types.
-- Fix implicit any.
-- Use ES6+ features.
-- Replace callbacks with Promises/async.
-- Remove unused code.
+- Convert to strict TypeScript.
+- Replace type with interface where appropriate.
+- Fix all implicit any types.
+- Replace callbacks with Promises/async/await.
+- Remove unused or redundant code.
+- Use non-primitive object type instead of Object.
+- Add readonly for immutable data structures.
+- Document all types, interfaces, and functions.
+- Enforce strict null checks.
+- Use ES6+ features where possible.
+- Ensure type safety throughout codebase.
 
 ## Java
 
-- Add null checks.
-- Use try-with-resources.
-- Use Streams API.
-- Add Javadoc.
-- Use generics.
-- Use Optional.
+- Add null and boundary checks.
+- Use try-with-resources for resource management.
+- Refactor to use Streams API where suitable.
+- Add complete Javadoc for classes and methods.
+- Use generics for type safety.
+- Use Optional to avoid nulls.
+- Remove deprecated or legacy code.
+- Enforce immutability where possible.
+- Apply SOLID principles.
 
 ## SQL
 
-- Write a query to [task].
-- Prevent SQL injection.
-- Add indexes.
-- Write migration for column.
-- List all tables.
-- Find duplicates.
+- Write parameterized queries to prevent SQL injection.
+- Add indexes for performance optimization.
+- Write migrations for schema changes.
+- List all tables, columns, and constraints.
+- Find and remove duplicates.
+- Optimize queries for performance.
+- Document schema changes and queries.
 
 ## React
 
-- Remove unnecessary useCallback/useMemo.
-- Convert to functional component.
-- Split into smaller components.
-- Add props interface/type.
-- Use hooks.
-- Memoize component.
-- Add error boundary.
-- Write unit tests.
-- Extract custom hook.
-- Optimize rendering.
-- Remove unused state/props.
-- Add default props/validation.
+- Split large components into smaller, focused components.
+- Use useCallback and useMemo only when necessary.
+- Add and export props interfaces.
+- Move interfaces and types to /types folder.
+- Convert class components to functional components.
+- Extract reusable logic to custom hooks.
+- Use React hooks for state and side effects.
+- Add error boundaries to critical components.
+- Write unit and integration tests for components.
+- Remove unnecessary re-renders and optimize performance.
 
 ## Security
 
-- Sanitize user input.
-- Prevent SQL injection.
-- Validate external data.
+- Sanitize and validate all user input.
+- Prevent SQL injection and XSS.
+- Validate and sanitize all external data sources.
+- Use secure authentication and authorization patterns.
+- Avoid exposing sensitive data.
 
 ## Formatting
 
-- Format code to [language] style guide.
-- Rename variables for clarity.
+- Format code to [language] style guide (e.g., Prettier, ESLint, Black).
+- Rename variables, functions, and classes for clarity and intent.
+- Enforce consistent naming conventions.
+- Limit file length to 200-300 lines; refactor if exceeded.
