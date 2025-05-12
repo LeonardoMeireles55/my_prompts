@@ -1,7 +1,9 @@
 # Frequently Asked Questions
 
 ## Git
-
+- How do I add changes to the last commit without changing the message?  
+  `git commit --amend --no-edit`
+  
 - Can I rebase commits interactively and change commit messages?  
   Yes: `git rebase -i HEAD~N`, then change `pick` to `reword` for desired commits.
 
