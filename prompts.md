@@ -1,5 +1,18 @@
 # Common and Reusable Coding Prompts
 
+## Common
+- Refactor this component following best practices and keeping the current code style.
+- Apply kiss principle to avoid redundancy in these files. 
+- Verify if there are security issues related to these files.
+- Search naming conventions issues throughout the project.
+- Generate internationalization/translation files for these components.
+- Review and fix grammar mistakes.
+- Read the existing files from this project and make a summary about the languages,
+technologies and architecture in Markdown(.md) keeping it concise.
+- Create TODO list to improve the readability, maintainability and performance keeping it concise.
+- Analyze this project and create meaningful README keeping it concise.
+
+
 ## General
 
 - Implement [task] in [language].
@@ -12,6 +25,7 @@
 - Add clear, concise documentation for all code.
 - Enforce single responsibility principle.
 - Ensure code is modular and reusable.
+
 
 ## TypeScript/JavaScript
 
