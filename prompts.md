@@ -1,8 +1,9 @@
 # Common and Reusable Coding Prompts
 
 ## Common
+
 - Refactor this component following best practices and keeping the current code style.
-- Apply kiss principle to avoid redundancy in these files. 
+- Apply kiss principle to avoid redundancy in these files.
 - Verify if there are security issues related to these files.
 - Search naming conventions issues throughout the project.
 - Generate internationalization/translation files for these components.
@@ -11,7 +12,6 @@
 technologies and architecture in Markdown(.md) keeping it concise.
 - Create TODO list to improve the readability, maintainability and performance keeping it concise.
 - Analyze this project and create meaningful README keeping it concise.
-
 
 ## General
 
@@ -25,7 +25,6 @@ technologies and architecture in Markdown(.md) keeping it concise.
 - Add clear, concise documentation for all code.
 - Enforce single responsibility principle.
 - Ensure code is modular and reusable.
-
 
 ## TypeScript/JavaScript
 
@@ -108,3 +107,21 @@ technologies and architecture in Markdown(.md) keeping it concise.
 - Rename variables, functions, and classes for clarity and intent.
 - Enforce consistent naming conventions.
 - Limit file length to 200-300 lines; refactor if exceeded.
+
+## Tailwind CSS
+
+- Improve style of this project,you should follow best practices and conventionals, avoid complexitity.
+- Use consistent color palette and avoid arbitrary values.
+- Extract common patterns to components or @apply directives.
+- Group related utility classes for better readability.
+- Follow mobile-first responsive design principles.
+- Use Tailwind's spacing and sizing scale consistently.
+- Create custom utility classes for project-specific repeated patterns.
+- Avoid overly complex class strings; extract to components when needed.
+- Use prose classes for content-rich areas.
+- Apply consistent dark mode strategy throughout the project.
+- Ensure accessibility standards are maintained with appropriate contrast.
+- Organize classes by category (layout, spacing, typography, etc.).
+- Use configuration file to extend theme with project-specific values.
+- Implement design tokens for consistency across the codebase.
+- Audit and remove unused classes with PurgeCSS.
