@@ -9,9 +9,10 @@
 - Generate internationalization/translation files for these components.
 - Review and fix grammar mistakes.
 - Read the existing files from this project and make a summary about the languages,
-technologies and architecture in Markdown(.md) keeping it concise.
+technologies and architecture in markdown(.md) keeping it concise.
 - Create TODO list to improve the readability, maintainability and performance keeping it concise.
 - Analyze this project and create meaningful README keeping it concise.
+- Using informations about this project, create a posible improvements list in markdown(.md).
 
 ## General
 
