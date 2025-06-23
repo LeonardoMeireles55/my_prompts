@@ -32,6 +32,7 @@ technologies and architecture in markdown(.md) keeping it concise.
 - Convert to strict TypeScript.
 - Replace type with interface where appropriate.
 - Fix all implicit any types.
+- Analyze this project and apply JSDoc, do not change any logic, do not break any functionality.
 - Replace callbacks with Promises/async/await.
 - Remove unused or redundant code.
 - Use non-primitive object type instead of Object.
