@@ -127,3 +127,29 @@ technologies and architecture in markdown(.md) keeping it concise.
 - Use configuration file to extend theme with project-specific values.
 - Implement design tokens for consistency across the codebase.
 - Audit and remove unused classes with PurgeCSS.
+
+# Quarkus Prompts
+
+- Use dependency injection for all services and resources.
+- Prefer constructor injection over field injection.
+- Use configuration properties for environment-specific values.
+- Keep application.properties organized and documented.
+- Use Panache for simplified entity and repository patterns.
+- Avoid blocking operations in reactive endpoints.
+- Use @Transactional for methods that modify the database.
+- Validate all REST input using Bean Validation (e.g., @Valid, @NotNull).
+- Document REST endpoints with OpenAPI annotations.
+- Use Quarkus Dev Services for local development and testing.
+- Write native tests to ensure compatibility with GraalVM.
+- Keep startup logic lightweight for fast boot times.
+- Avoid static state in beans and services.
+- Use Quarkus extensions for common integrations (e.g., RESTEasy, Hibernate ORM).
+- Monitor application health with built-in endpoints.
+- Use logging wisely; avoid excessive log verbosity.
+- Secure sensitive endpoints with authentication and authorization.
+- Handle errors gracefully and provide meaningful error responses.
+- Optimize resource usage; close connections and streams.
+- Test application behavior under load and optimize accordingly.
+- Regularly update dependencies and Quarkus version.
+- Review and optimize build configuration for efficiency.
+- Document deployment and operational procedures.
