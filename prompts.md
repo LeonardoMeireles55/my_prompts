@@ -3,7 +3,7 @@
 ## Common
 
 - Refactor this component following best practices and keeping the current code style.
-- Apply kiss principle to avoid redundancy in these files.
+- Apply dry and kiss principle to avoid redundant and unnecessary complexity in this project.
 - Verify if there are security issues related to these files.
 - Search naming conventions issues throughout the project.
 - Generate internationalization/translation files for these components.
