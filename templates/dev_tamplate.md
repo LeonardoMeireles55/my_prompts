@@ -1,5 +1,4 @@
-PROMPT  TEMPLATE FOR DEVELOPERS AND ARCHITECTS
-
+# PROMPT  TEMPLATE FOR DEVELOPERS AND ARCHITECTS
 
 1. ROLE:
 
@@ -83,11 +82,11 @@ PROMPT  TEMPLATE FOR DEVELOPERS AND ARCHITECTS
 
    - Provide a README.md file with:
 
-     * Clear setup instructions (dependencies, database setup, running the app).
+     - Clear setup instructions (dependencies, database setup, running the app).
 
-     * A brief overview of the generated structure.
+     - A brief overview of the generated structure.
 
-     * Instructions on how to run basic functions (e.g., create a user, add a book).
+     - Instructions on how to run basic functions (e.g., create a user, add a book).
 
    - Provide a requirements file (e.g., requirements.txt for Python, package.json for Node.js).
 
@@ -101,7 +100,4 @@ PROMPT  TEMPLATE FOR DEVELOPERS AND ARCHITECTS
 
     - [e.g., Use environment variables for configuration like database connection strings.]
 
-
-
 --- END OF PROMPT ---
-
