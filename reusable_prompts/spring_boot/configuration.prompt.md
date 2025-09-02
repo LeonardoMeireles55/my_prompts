@@ -1,4 +1,6 @@
-### Spring Boot Configuration
+---
+mode: agent
+---
 
 Generate a Spring Boot configuration class with the following specifications:
 - Use `@Configuration` annotation.

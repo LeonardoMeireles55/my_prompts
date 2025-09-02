@@ -1,4 +1,6 @@
-### Spring Boot Testing
+---
+mode: agent
+---
 
 Generate unit and integration tests for a Spring Boot application with the following specifications:
 - Use `@SpringBootTest` for integration tests.

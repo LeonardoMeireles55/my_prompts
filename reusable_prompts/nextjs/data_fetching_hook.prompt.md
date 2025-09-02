@@ -1,3 +1,7 @@
+---
+mode: agent
+---
+
 ### Next.js Data Fetching Hook
 
 Generate a custom React hook for data fetching in Next.js with the following specifications:

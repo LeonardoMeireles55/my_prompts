@@ -1,3 +1,7 @@
+---
+mode: agent
+---
+
 ### Next.js Authentication Setup
 
 Generate Next.js authentication setup with the following specifications:

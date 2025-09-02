@@ -1,3 +1,7 @@
+---
+mode: agent
+---
+
 ### Next.js API Route Handler
 
 Generate a Next.js API route handler with the following specifications:

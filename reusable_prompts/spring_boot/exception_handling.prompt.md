@@ -1,4 +1,6 @@
-### Spring Boot Exception Handling
+---
+mode: agent
+---
 
 Generate global exception handling for a Spring Boot application with the following specifications:
 - Use `@ControllerAdvice` annotation.

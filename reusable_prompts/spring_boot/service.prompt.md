@@ -1,4 +1,6 @@
-### Spring Boot Service
+---
+mode: agent
+---
 
 Generate a Spring Boot service class with the following specifications:
 - Use `@Service` annotation.

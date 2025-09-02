@@ -1,4 +1,6 @@
-### Spring Boot Controller
+---
+mode: agent
+---
 
 Generate a Spring Boot REST controller with the following specifications:
 - Use `@RestController` annotation.

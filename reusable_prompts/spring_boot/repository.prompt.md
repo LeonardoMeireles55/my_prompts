@@ -1,4 +1,6 @@
-### Spring Boot Repository
+---
+mode: agent
+---
 
 Generate a Spring Boot JPA repository interface with the following specifications:
 - Extend `JpaRepository<EntityName, Long>`.

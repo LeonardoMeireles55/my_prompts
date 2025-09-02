@@ -1,3 +1,7 @@
+---
+mode: agent
+---
+
 ### Next.js Loading and Error Components
 
 Generate Next.js loading and error components with the following specifications:

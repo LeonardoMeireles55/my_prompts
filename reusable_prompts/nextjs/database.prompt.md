@@ -1,3 +1,7 @@
+---
+mode: agent
+---
+
 ### Next.js Database Integration
 
 Generate Next.js database integration with the following specifications:

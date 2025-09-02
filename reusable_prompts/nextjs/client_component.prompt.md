@@ -1,3 +1,7 @@
+---
+mode: agent
+---
+
 ### Next.js Client Component
 
 Generate a Next.js client component with the following specifications:

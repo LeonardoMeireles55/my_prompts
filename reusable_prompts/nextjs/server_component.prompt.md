@@ -1,3 +1,7 @@
+---
+mode: agent
+---
+
 ### Next.js Server Component
 
 Generate a Next.js server component with the following specifications:

@@ -1,4 +1,6 @@
-### Spring Boot Security Configuration
+---
+mode: agent
+---
 
 Generate a Spring Security configuration for a Spring Boot application with the following specifications:
 - Use `@EnableWebSecurity` annotation.

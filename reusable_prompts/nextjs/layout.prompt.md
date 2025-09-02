@@ -1,3 +1,7 @@
+---
+mode: agent
+---
+
 ### Next.js Layout Component
 
 Generate a Next.js layout component with the following specifications:

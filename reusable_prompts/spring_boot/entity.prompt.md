@@ -1,4 +1,6 @@
-### Spring Boot Entity
+---
+mode: agent
+---
 
 Generate a JPA entity class with the following specifications:
 - Use `@Entity` annotation.
